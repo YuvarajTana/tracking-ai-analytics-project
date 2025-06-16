@@ -1,0 +1,27 @@
+{
+    "name": "@ai-analytics/web-sdk",
+    "version": "1.0.0",
+    "description": "JavaScript SDK for AI Analytics Platform",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+      "test": "jest",
+      "lint": "eslint src/**/*.ts"
+    },
+    "keywords": ["analytics", "tracking", "javascript", "sdk"],
+    "license": "MIT",
+    "devDependencies": {
+      "@rollup/plugin-node-resolve": "^15.0.0",
+      "@rollup/plugin-commonjs": "^24.0.0",
+      "@rollup/plugin-typescript": "^11.0.0",
+      "rollup": "^3.20.0",
+      "typescript": "^5.0.0",
+      "jest": "^29.0.0",
+      "@types/jest": "^29.0.0",
+      "eslint": "^8.0.0"
+    },
+    "dependencies": {}
+  }
